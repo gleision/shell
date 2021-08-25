@@ -1,2 +1,2 @@
 # shell
-inscripts em shell
+scripts em shell
