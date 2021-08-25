@@ -1,0 +1,2 @@
+# shell
+inscripts em shell
