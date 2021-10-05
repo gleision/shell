@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+
+#teste do programa
+[[ "$UID" -ne "0" ]] && { echo "Necessita de root!" ; exit 1 ; }
+
+
+#inicia a atualizaçao do sistema
+
+if pacman -Syu; then
+	echo "lista de pacotes atualizados.ok"
+else
+	echo "update falhou! Saindo da atualizaçao! [erro]"
+	exit 1
+fi
+
+if pacman -Syu; then
+	echo "upgrade de pacotes foram atualizados com sucesso.[ok]"
+else
+	echo "upgrade de pacotes falhou! Saindo do programa[erro]"
+fi
+
+#limpa pacotes que ja foram desinstalados
+
+if pacman -Sc; then
+	echo "arquivos desnecessarios retirados.[ok]"
+else
+	echo "clean deu pau...[erro]"
+fi

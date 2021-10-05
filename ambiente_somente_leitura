@@ -1,0 +1,17 @@
+#! /usr/bin/env bash
+
+echo -e  "qual a linguagem do sistema? \n"
+
+echo -e "$LANG \n"
+
+echo -e "qual o diretorio do usuario logado \n"
+
+echo -e "$HOME \n"
+
+echo -e "qual o nome do usuario logado \n"
+
+echo -e "$USER \n"
+
+# para executar um comando dentro de uma variavel
+# utiliza -se $() ou $``para passar o comando na variavel
+#ex--list=$(ls) ou `l`s
