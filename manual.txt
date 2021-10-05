@@ -1,0 +1,2 @@
+manual de ajuda do HERE DOCUMENT
+dentro dessa sintaxe nada e interpretado (<<HERE=inicia e fecha escrevendo em maiusculo no final do texto

@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+
+echo "Hello world, quebrei a maldiçao!"
+
+echo "entrando no diretorio!"
+cd /home/_sennin_rider
+
+echo "onde eu estou?"
+pwd
+
+echo "listando o que tem dentro  deste diretorio"
+ls

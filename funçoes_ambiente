@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+function parametros() {
+	[[ -z "$1" ]] && echo "Variavel é nula" || echo "Variavel nao é nula"
+}
+
+set -x
+
+parametros   "$@"
+
+

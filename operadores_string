@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+#Autor --Gleison Mendes Gomes
+#Nome do programa--
+
+#operadores de string 
+#=,!=(significa diferente) -n=not null,-z= null
+
+nome_conferir="Naruto"
+
+read -p "Qual o seu nome?" nome
+test -z "$nome" 									#conferindo se var e null
+echo "Variável é nulla? $?"
+
+#test "$nome" = "$nome_conferir"
+
+#echo "status de saida: $?"
+ 

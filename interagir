@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+echo "Qual é o seu nome?" 
+read nome	
+
+echo "Qual sua altura?"
+read altura
+
+echo "Qual sua escolaridade"
+read escolaridade
+
+read -p "qual seu anime favorito" anime
+
+#read -p "Qual sua escolaridade?" escolaridade 
+#a linha acima faz a mesma funçao das outras acima
+#otimizando e reduzindo o codigo muito
+
+echo -e "O seu nome é: $nome\n"
+echo -e "A sua altura é: $altura\n"
+echo -e "A sua escolaridade é: $escolaridade\n"
+echo -e "o melhor anime da galáxia é: $anime"
+

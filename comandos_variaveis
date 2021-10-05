@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+
+#list=$(ls /boot)
+#lista=$(ls /home/naruto)
+#listag=$(ls /home)
+
+
+#echo -e "listando `/boot`\n $list\n"
+#echo -e "listando `/home/naruto`\n $lista\n"
+#echo -e "listando `/home`\n $listag"
+
+###########################################################
+#
+#teste do uso do $() 
+##########################################################
+
+ID=$(echo "$UID")
+DIR="/home/_sennin_rider"
+diretorio="/home"
+
+
+echo "o ID do usuario logado é $ID"
+cd "$DIR"
+
+echo "executando o comando pwd"
+pwd
+
+echo "entrando no diretorio $diretorio"
+cd "$diretorio"
+pwd

@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+# -d (é um diretorio ou existe) [[ -d "musica" ]] && echo "o diretorio existe"
+
+# -e (verifica SE O ARQUIVo existe) 
+#[[ -e "ea.pdf" ]] && echo "o arquivo existe"
+
+# -r (verifica se tem permissao de leitura) [[ -r "arq.txt" ]]
+
+# -w (verifica se o arquivo tem permissao de escrita) [[ -w ll.txt" ]]
+
+# -x ( verifica se o arquivo tem permissao de execuçao) [[ -x "ff.sh" ]] 
+
+# -l (verifica se é um link simbolico
+# -o (o dono do arquivo é o usuario logado atualmente)
+# -f (é um arquivo normal)
+
+# -ot (verifica se o arquivo e mais antigo (old then) ) 
+# [[ "arq.txt" -ot "aq.txt" ]]
+
+# -nt ( verifica se  o arquivo e mais novo (newer then) ) 
+# [[ "arq.txt" -nt "aq.txt" ]]
+
+
+
+
+
+ 
+
+

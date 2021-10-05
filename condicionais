@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+#
+# && = e (and) só executa se o primeiro comando for verdadeiro!
+# ||=ou(or) se o primeiro comando nao for executado executa o 2!
+# ; executa toda o bloco,separador de agrupamentos
+# {comandos aqui separados por ;;; } agrupam os comandos
+# 
+
+
+
+read -p "Qual é p seu nome?" nome
+test -z "$nome"                       \
+&& echo "a variável é nula!"          \
+|| echo "A variável nao é nula!"

@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+#set-x usado para debugar ou no terminal bash -x
+
+
+_nome="gleiso"n
+_idade="38"
+_rg="666555774"8
+
+echo "seu nome e $_nome"
+echo "sua idade é $_idade"
+echo "seu rg é $_rg"
